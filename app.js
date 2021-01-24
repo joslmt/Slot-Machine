@@ -2,7 +2,7 @@ window.onload = ()=>{
     let coins = document.querySelector("#coins");
     let insertarCoin = document.querySelector("#insertarCoin");
     let start = document.querySelector("#start");
-    let elementos = ["/img/aguacate.png", "/img/ajo.png", "/img/cebolla.png","/img/pepino.png", "/img/puerro.png", "/img/tomate.png","/img/zanahoria.png"];
+    let elementos = ["img/aguacate.png", "img/ajo.png", "img/cebolla.png","img/pepino.png", "img/puerro.png", "img/tomate.png","img/zanahoria.png"];
     let fail = document.querySelector(".fail");
     let winner = document.querySelector(".winner");
     coins.value = '0';
