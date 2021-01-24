@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{background-color: rgb(22, 22, 22);}
+img{max-width: 100%; }
+h1{ text-align: center; padding: 1em 0em;}
+input[type=button],
+input[type=text]{
+    width: 10em;
+    padding: 1em;
+    border-radius: .15em;
+    font-size: 1em;
+    background-color: orange;
+    border: none;
+    outline: none;
+}
+.wrapper{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 1em;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(56, 160, 42);
+    border-radius: .15em;
+    box-shadow: 0em 0em 1em 0em grey;
+}
+.slots{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5em;
+    padding: 1em;
+    width: 60%;
+}
+.head{
+    display: grid;
+    justify-items: center;}
+.coins{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#coins{
+    font-size: 1em;
+    background: none;}
+.bts{
+    display: flex;
+    gap: 1em;}
+#error,#winner,#tt,#dbl{
+    text-align: center;
+    padding: .5em;
+    width: 30em;
+    border-radius: .15em;
+}
+#tt{background-color: rgb(154, 233, 7);}
+#dbl{background-color: rgb(226, 130, 4);}
+#error{background-color: red;}
